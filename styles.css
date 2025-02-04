@@ -1,14 +1,17 @@
 /*  your css code here. If applicable */
 .main{
 	width:1100px;
-	height:500px;
-	background-color:yellow;
+	background-color:beige;
 }
 .imageContainer{
-	background-color:red;
 	height:30%;
 	width:40%;
-	margin:10px 10px 10px 10px;
+	margin-top:10px;
+}
+.imageContainer>img{
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
 }
 table{
 	border:1px solid black;
@@ -16,12 +19,15 @@ table{
 td{
 	border:1px solid black;
 }
-.img1{
+.img1>img{
 	width:200px;
+	height:200px;
+	
 }
 .content{
 	width:600px
 }
-.img2{
+.img2>img{
 	width:200px;
+	height:200px;
 }
